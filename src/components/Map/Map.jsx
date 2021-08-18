@@ -12,7 +12,8 @@ const Map = () => {
   return (
     <div className={classes.mapContainer}>
       <GoogleMapReact
-        bootstrapURLKeys={{key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY}}
+        // the api key has to be added process env is not working remember that rest is oky just use the key from the env file i am using  key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY for security do not upload an api key to github ever
+        bootstrapURLKeys={{key:'AIzaSyABUG3yep49qSukqk4zVwHRg_9_cOX_Xw4'}}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}

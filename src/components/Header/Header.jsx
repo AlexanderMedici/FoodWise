@@ -18,7 +18,7 @@ const Header = () => {
             <Typography variant="h6" className={classes.title}>
               Explore New Places
             </Typography>
-            {/*<Autocomplete>*/}
+            {/*<Autocomplete> is commented out also has a weird error  error  will deal with it later*/}
             <div className={classes.search}>
               <div className={classes.searchIcon}>
                 <SearchIcon />

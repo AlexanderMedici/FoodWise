@@ -2,11 +2,11 @@ import React from "react";
 
 import useStyles from "./styles.js";
 
-const PlaceDetails = () => {
-  const classes = useStyles();
+const PlaceDetails = ({place}) => {
+  // const classes = useStyles();
   return (
     <div>
-      <h1>Detail</h1>
+      <h1>{place.name}</h1>
     </div>
   );
 };
