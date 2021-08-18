@@ -1,0 +1,9 @@
+{
+  "gitlens.defaultDateShortFormat": "",
+  "editor.defaultFormatter": "svipas.prettier-plus",
+  "prettier.parser": "flow",
+  "prettier.tslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
+  "prettier.requireConfig": true
+}
