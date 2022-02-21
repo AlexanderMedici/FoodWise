@@ -15,7 +15,12 @@ const PlaceDetails = ({ place }) => {
         image={place.photo? place.photo.images.large.url: 'https://www.foodserviceandhospitality.com/wp-content/uploads/2016/09/Restaurant-Placeholder-001.jpg'}
         title={place.name}
       />
-    <CardContent>
+      <CardContent>
+            <Typography gutterBottom variant="h5">{place.name}</Typography>
+      <Box display="flex" justifyContent="space-between">
+              <Rating value={ Number(place.rating)} readOnly />
+              <Typography gutterBottom variant="subtitle1">Out Of { place.num_reviews} Reviews</Typography>
+        </Box>
         <Typography gutterBottom variant="h5">{place.name}</Typography>
         <Box display="flex" justifyContent="space-between">
                 <Typography variant="subtitle1">Price</Typography>

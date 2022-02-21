@@ -12,13 +12,13 @@ const Header = () => {
       <AppBar position="static">
         <Toolbar className={classes.toolbar}>
           <Typography variant="h5" className={classes.title}>
-            FooDWise
+            FoodWise
           </Typography>
           <Box display="flex">
             <Typography variant="h6" className={classes.title}>
               Explore New Places
             </Typography>
-            {/*<Autocomplete> is commented out also has a weird error  error  will deal with it later*/}
+            {/*<Autocomplete> 
             <div className={classes.search}>
               <div className={classes.searchIcon}>
                 <SearchIcon />
